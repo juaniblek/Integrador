@@ -88,7 +88,7 @@ nav ul li:hover::after {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: covershide;
     opacity: 0.9;
 }
 .overlay {
@@ -171,8 +171,11 @@ nav ul li:hover::after {
 .social li a:hover {
     transform: scale(0.5) translateY(-15px);
 }
-
-.menu {
+-items: center;
+<html>
+<head>
+<style>
+menu {
     position: absolute;
     top: 0;
     right: 0;
@@ -182,6 +185,15 @@ nav ul li:hover::after {
     justify-content: center;
     align-items: center;
 }
+</style>
+</head>
+<body>
+<div id="menu">
+  <p>This is a div with some content</p>
+</div>
+</body>
+</html>
+
 
 .menu ul {
     position: relative;
